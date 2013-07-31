@@ -1,13 +1,13 @@
-Source: inithooks
+Source: inithooks-base
 Section: admin
 Priority: optional
-Maintainer: Alon Swartz <alon@turnkeylinux.org>
+Maintainer: Peter Foley <peter@ifoley.id.au>
 Build-Depends: debhelper (>> 4.2.0)
 Standards-Version: 3.6.1
 
-Package: inithooks
+Package: inithooks-base
 Architecture: any
-Depends: console-tools | console-utilities, turnkey-pylib
+Depends: console-tools | console-utilities
 Recommends: confconsole (>= 0.9.4+36+g2256734)
 Section: admin
 Description: Executes firstboot and everyboot scripts
