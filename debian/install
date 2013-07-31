@@ -1,2 +1,2 @@
 default/*           /etc/default
-run                 /usr/lib/inithooks
+run                 /usr/lib/inithooks/bin
