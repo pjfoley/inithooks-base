@@ -1,2 +1,0 @@
-default/*           /etc/default
-run                 /usr/lib/inithooks/bin
